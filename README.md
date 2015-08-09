@@ -5,7 +5,7 @@
 ## Documentation - 文档
 
 - [x] [Getting Started - 开始](documentation/GettingStarted.md)
-- [ ] [Basic Usage - 基础使用](documentation/BasicUsage.md)
+- [x] [Basic Usage - 基础使用](documentation/BasicUsage.md)
 - [ ] [Configuration - 配置](documentation/Configuration.md)
 - [ ] [Commands - 命令](documentation/Commands.md)
 - [x] [Dependecies - 依赖](documentation/Dependencies.md)

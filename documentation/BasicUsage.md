@@ -22,8 +22,8 @@ $ rebar3 new app myapp
 ===> Writing myapp/README.md
 ```
 
-查看[命令](documentation/Commands.md)获得更多关于`new`命令的可用选项参数，
-查看[模板](tutorials/Templates.md)学习如何使用自定义模板。
+查看[命令](Commands.md)获得更多关于`new`命令的可用选项参数，
+查看[模板](../tutorials/Templates.md)学习如何使用自定义模板。
 
 ## 添加依赖
 依赖定义在`rebar.config`文件中的`deps`配置下：
@@ -56,7 +56,7 @@ $ rebar3 new app myapp
  ]}.
 ```
 
-查看[依赖](documentation/Dependencies.md) 获取更多依赖处理的相关信息。
+查看[依赖](Dependencies.md) 获取更多依赖处理的相关信息。
 
 ## 构建
 
@@ -76,7 +76,7 @@ $ rebar3 compile
 
 > **⚠ 依赖获取**
 
-> 跟上一个版本的rebar不一样，rebar3使用`compile`命令获取所有本地没有的依赖并且编译。这是使用提供依赖的插件实现的，你可以查看[插件教程](documentation/Plugins.md)。
+> 跟上一个版本的rebar不一样，rebar3使用`compile`命令获取所有本地没有的依赖并且编译。这是使用提供依赖的插件实现的，你可以查看[插件教程](Plugins.md)。
 
 ## 输出文件格式
 安装依赖，构建releases或者其他任何形式输出文件都将写入项目根目录下的`_build`目录。
@@ -90,7 +90,7 @@ _build/
     └── ranch
 ```
 
-查看 [环境配置](documentation/Profiles.md) 获取更多 `_build` 目录相关信息。
+查看 [环境配置](Profiles.md) 获取更多 `_build` 目录相关信息。
 
 ## 测试
 测试用例默认放在`test`目录下，`eunit`的测试方法也可以放在单独的模块中。
@@ -199,6 +199,6 @@ $ rebar3 as prod tar
 ===> tarball myrel/_build/rel/myrel/myrel-0.1.0.tar.gz successfully created!
 ```
 
-查看[发布章节](documentation/Releases)获取更多关于软件发布的信息。
+查看[发布章节](Releases.md)获取更多关于软件发布的信息。
 
 
