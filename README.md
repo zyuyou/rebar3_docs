@@ -6,7 +6,7 @@
 
 - [x] [Getting Started - 开始](documentation/GettingStarted.md)
 - [x] [Basic Usage - 基础使用](documentation/BasicUsage.md)
-- [ ] [Configuration - 配置](documentation/Configuration.md)
+- [x] [Configuration - 配置](documentation/Configuration.md)
 - [ ] [Commands - 命令](documentation/Commands.md)
 - [x] [Dependecies - 依赖](documentation/Dependencies.md)
 - [ ] [Custom Dep Resources - 自定义依赖源](documentation/CustomDepResources.md)
