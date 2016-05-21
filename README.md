@@ -15,7 +15,7 @@
 - [ ] [Releases - 发布](documentation/Releases.md)
 - [ ] [Plugins - 插件](documentation/Plugins.md)
 - [ ] [Hex Package Management](documentation/HexPackageManagement.md)
-- [ ] [Dynamic Configuration - 动态配置](documentation/DynamicConfiguration.md)
+- [x] [Dynamic Configuration - 动态配置](documentation/DynamicConfiguration.md)
 
 ## Tutorials - 教程
 
