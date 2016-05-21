@@ -2,6 +2,8 @@
 
 主要是对[Rebar3文档](http://www.rebar3.org/docs)的翻译，但也会对原文中解释不清楚的地方进行补充。
 
+> 注意：对于原文中一些比较容易理解并且难翻译成中文的地方，本人将保留原文不翻译，以免让人更难理解。
+
 ## Documentation - 文档
 
 - [x] [Getting Started - 开始](documentation/GettingStarted.md)

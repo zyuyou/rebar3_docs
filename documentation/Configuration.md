@@ -234,7 +234,7 @@ tar | the entire run
 
 ## Shell
 
-The rebar3 shell REPL will automatically boot applications if a relx entry is found, but apps to be started by the shell can be specified explicitly with {shell_apps, [App]}.
+如果rebar.config配置中有`relx`项配置，使用`rebar3 shell`会打开一个REPL的shell环境并自动启动relx配置中的应用。但是shell启动的应用可以通过在rebar.config添加`{shell_apps, [App1, App2]}`指定，注意该配置会覆盖relx的配置。 
 
 ## XRef
 
